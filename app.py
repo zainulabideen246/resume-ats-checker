@@ -10,7 +10,7 @@ from google.genai import types
 from pypdf import PdfReader
 
 APP_TITLE = "Resume ATS Checker"
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3.8-flash"
 MAX_FILE_BYTES = 5 * 1024 * 1024
 MAX_RESUME_CHARS = 30000
 
